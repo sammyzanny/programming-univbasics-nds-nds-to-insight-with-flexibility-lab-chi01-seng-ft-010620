@@ -73,7 +73,19 @@ def gross_per_studio(collection)
   #
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
-  
+   {"Universal"=>1278335390,
+       "Columbia"=>217711904,
+       "Paramount"=>2382072020,
+       "Buena Vista"=>2602319056,
+       "Warner Brothers"=>1174295617,
+       "Fox"=>1280043473,
+       "TriStar"=>205881154,
+       "Focus"=>49275340,
+       "Dreamworks"=>155464351,
+       "Weinstein"=>283346153,
+       "Sony"=>135156125,
+       "Miramax"=>508129831,
+       "MGM"=>83471511}
 end
 
 def movies_with_directors_set(source)
@@ -87,6 +99,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  
 end
 
 # ----------------    End of Your Code Region --------------------
