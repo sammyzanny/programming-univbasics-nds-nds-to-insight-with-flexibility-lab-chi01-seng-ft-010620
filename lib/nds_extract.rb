@@ -99,8 +99,10 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   movie_collection = []
   director_index = 0 
-  while director_index < source.length
-  
+  while director_index < source.length do 
+    movie_collection << source[director_index][movies]
+  end
+  movie_collection
 end
 
 # ----------------    End of Your Code Region --------------------
