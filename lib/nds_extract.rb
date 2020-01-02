@@ -53,8 +53,10 @@ def movies_with_director_key(name, movies_collection)
    while i < movies_collection.length do 
      if movies_collection[i][:director_name] == name
        director_collection << {name: movies_collection[i]}
+     end
        i += 1
       end 
+      
    director_collection
 end
 
